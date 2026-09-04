@@ -99,6 +99,77 @@ The project contains charts showing the major findings from the analysis.
 The generated charts are available in the `screenshots/` folder.
 
 ## How to Run the Project
+## Git Usage Commands
+
+The following Git commands were used to maintain version control for this project.
+
+### 1. Initialize Git Repository
+
+```bash
+git init
+```
+
+Creates a new local Git repository in the project folder.
+
+### 2. Check Repository Status
+
+```bash
+git status
+```
+
+Shows modified, untracked, and staged files.
+
+### 3. Add Files to Staging Area
+
+```bash
+git add .
+```
+
+Adds all project files to the staging area.
+
+### 4. Create a Commit
+
+```bash
+git commit -m "Initial commit"
+```
+
+Creates a snapshot of the project with a meaningful commit message.
+
+### 5. Rename Branch to Main
+
+```bash
+git branch -M main
+```
+
+Sets the main branch name to `main`.
+
+### 6. Connect Local Repository to GitHub
+
+```bash
+git remote add origin <repository-link>
+```
+
+Connects the local Git repository to the GitHub repository.
+
+### 7. Push Project to GitHub
+
+```bash
+git push -u origin main
+```
+
+Uploads the project files to the `main` branch on GitHub.
+
+### 8. Future Updates
+
+Whenever changes are made to the project:
+
+```bash
+git add .
+git commit -m "Update project"
+git push
+```
+
+These commands keep the GitHub repository updated with the latest version of the project.
 
 1. Clone this repository.
 2. Open the project in VS Code.
